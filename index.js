@@ -28,7 +28,7 @@ const PASSWORD = process.env.FACEBOOK_PASSWORD;
     
     
     // Your Fucking Messenger Receipient URL
-    const MESSENGER_URL = 'https://www.messenger.com/t/199901607012936/';
+    const MESSENGER_URL = 'https://www.messenger.com/t/100027643185540/';
 
     await page.goto(MESSENGER_URL, { waitUntil: 'networkidle2' });     
 
@@ -48,7 +48,7 @@ const PASSWORD = process.env.FACEBOOK_PASSWORD;
      *                          SPAM MESSAGE                             *
      *********************************************************************/
     setInterval( async () => {
-        page.type('._1p1t', 'DEMO :D')
+        page.type('._1p1t', 'TESTING SORRY!')
             .then(() => {
                 page.keyboard.press('Enter');
             })
